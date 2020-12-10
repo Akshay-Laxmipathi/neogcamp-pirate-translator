@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+:root {
+    --primary-color: #60A5FA;
+}
+
+body {
+    font-family: 'Ranchers', cursive;
+    margin: 0px;
+}
+
+nav {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+#txt-input {
+    text-align: center;
+    width: 30%;
+    height: 8vh;
+    display: block;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    font-family: 'Ranchers', cursive;
+}
+
+#btn-translate {
+    font-family: 'Ranchers', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem 41rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+}
+
+#output {
+    text-align: center;
+    border: 1px solid black;
+    height: 8vh;
+    width: 30%;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-family: 'Ranchers', cursive;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+}
+
+footer {
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem 41rem;
+    background-color: var(--primary-color);
+}
